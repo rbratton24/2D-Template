@@ -290,6 +290,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Dead
       objectReference: {fileID: 0}
+    - target: {fileID: 8669913722818993211, guid: 5ed523a0456b92f4ebaddcdab1dfbfd5,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8669913722818993210, guid: 5ed523a0456b92f4ebaddcdab1dfbfd5,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -500,8 +505,7 @@ PrefabInstance:
         type: 3}
       propertyPath: playing
       value: 
-      objectReference: {fileID: 5292076157045245355, guid: d7f7fedbad3792f4c93cfef986f51b84,
-        type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 1105723924794852754, guid: dec96e4a9a8fba14aa18a9dacba803a5,
         type: 3}
       propertyPath: pause
@@ -678,7 +682,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 564938799}
-        m_MethodName: Play
+        m_MethodName: LoadPlayState
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

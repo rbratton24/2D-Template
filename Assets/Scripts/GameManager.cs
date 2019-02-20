@@ -9,7 +9,7 @@ public class GameManager : MonoBehaviour
     public enum States { MENU, PLAYING, PAUSED, DEAD, QUIT };
     
     public States currentState;
-    public GameObject playing;
+    public GameObject playing = null;
     public GameObject pause;
     public GameObject dead;
     public Canvas pauseCanvas;
@@ -86,12 +86,12 @@ public class GameManager : MonoBehaviour
 
     public void Menu()
     {
-
+        SceneManager.LoadScene("mainMenu");
         currentState = States.MENU;
         playing.SetActive(false);
         pause.SetActive(false);
         dead.SetActive(false);
-        SceneManager.LoadScene("mainMenu");
+        
         
 
     }

@@ -417,6 +417,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlayState
       objectReference: {fileID: 0}
+    - target: {fileID: 5292076157045245355, guid: d7f7fedbad3792f4c93cfef986f51b84,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5292076157045245356, guid: d7f7fedbad3792f4c93cfef986f51b84,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -515,6 +520,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Dead
+      objectReference: {fileID: 0}
+    - target: {fileID: 8669913722818993211, guid: 5ed523a0456b92f4ebaddcdab1dfbfd5,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8669913722818993210, guid: 5ed523a0456b92f4ebaddcdab1dfbfd5,
         type: 3}
